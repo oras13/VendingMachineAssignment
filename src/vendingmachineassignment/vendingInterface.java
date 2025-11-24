@@ -135,7 +135,6 @@ public class vendingInterface extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonLemon, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 40, 130, 70));
 
-<<<<<<< HEAD
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("€1.70");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 120, -1, -1));
@@ -152,22 +151,6 @@ public class vendingInterface extends javax.swing.JFrame {
         jLabel4.setText("€1.00");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 120, -1, -1));
 
-        jButtonTwoEuro.setBackground(new java.awt.Color(204, 0, 255));
-        jButtonTwoEuro.setForeground(new java.awt.Color(255, 255, 255));
-=======
-        jLabel1.setText("€1.70");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 120, -1, -1));
-
-        jLabel2.setText("€1.50");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 120, -1, -1));
-
-        jLabel3.setText("€1.00");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, -1, -1));
-
-        jLabel4.setText("€1.00");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 120, -1, -1));
-
->>>>>>> origin/main
         jButtonTwoEuro.setText("€2.00");
         jButtonTwoEuro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -176,11 +159,6 @@ public class vendingInterface extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonTwoEuro, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 198, -1, -1));
 
-<<<<<<< HEAD
-        jButtonOneEuro.setBackground(new java.awt.Color(204, 0, 255));
-        jButtonOneEuro.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> origin/main
         jButtonOneEuro.setText("€1.00");
         jButtonOneEuro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -189,11 +167,6 @@ public class vendingInterface extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonOneEuro, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 234, -1, -1));
 
-<<<<<<< HEAD
-        jButtonFiftyCent.setBackground(new java.awt.Color(204, 0, 255));
-        jButtonFiftyCent.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> origin/main
         jButtonFiftyCent.setText("€0.50");
         jButtonFiftyCent.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -202,11 +175,6 @@ public class vendingInterface extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonFiftyCent, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 270, -1, -1));
 
-<<<<<<< HEAD
-        jButtonTwentyCent.setBackground(new java.awt.Color(204, 0, 255));
-        jButtonTwentyCent.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> origin/main
         jButtonTwentyCent.setText("€0.20");
         jButtonTwentyCent.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -215,11 +183,6 @@ public class vendingInterface extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonTwentyCent, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 198, -1, -1));
 
-<<<<<<< HEAD
-        jButtonTenCent.setBackground(new java.awt.Color(204, 0, 255));
-        jButtonTenCent.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> origin/main
         jButtonTenCent.setText("€0.10");
         jButtonTenCent.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -227,11 +190,8 @@ public class vendingInterface extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButtonTenCent, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 234, -1, -1));
-<<<<<<< HEAD
 
         listProductsSelect.setBackground(new java.awt.Color(153, 204, 255));
-=======
->>>>>>> origin/main
         getContentPane().add(listProductsSelect, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 198, 73, 100));
 
         jButtonConfirm.setBackground(new java.awt.Color(153, 255, 153));
@@ -252,10 +212,7 @@ public class vendingInterface extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonClearAll, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 310, 80, -1));
 
-<<<<<<< HEAD
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> origin/main
         jLabel5.setText("Total Price: ");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(518, 198, -1, -1));
 
@@ -268,7 +225,6 @@ public class vendingInterface extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButtonExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, -1, -1));
-<<<<<<< HEAD
 
         listMoneyIn.setBackground(new java.awt.Color(153, 204, 255));
         getContentPane().add(listMoneyIn, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 198, 73, 96));
@@ -276,30 +232,11 @@ public class vendingInterface extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Money In:");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 198, -1, -1));
-
-        jTextMoneyIn.setBackground(new java.awt.Color(204, 0, 255));
-        jTextMoneyIn.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(jTextMoneyIn, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 222, 60, -1));
-
-        jTextTotalCost.setBackground(new java.awt.Color(204, 0, 255));
-        jTextTotalCost.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(jTextTotalCost, new org.netbeans.lib.awtextra.AbsoluteConstraints(518, 222, 60, -1));
-
-        jTextChange.setBackground(new java.awt.Color(204, 0, 255));
-        jTextChange.setForeground(new java.awt.Color(255, 255, 255));
         getContentPane().add(jTextChange, new org.netbeans.lib.awtextra.AbsoluteConstraints(346, 222, 71, -1));
 
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-=======
-        getContentPane().add(listMoneyIn, new org.netbeans.lib.awtextra.AbsoluteConstraints(172, 198, 73, 96));
-
-        jLabel6.setText("Money In:");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 198, -1, -1));
-        getContentPane().add(jTextMoneyIn, new org.netbeans.lib.awtextra.AbsoluteConstraints(255, 222, 60, -1));
-        getContentPane().add(jTextTotalCost, new org.netbeans.lib.awtextra.AbsoluteConstraints(518, 222, 60, -1));
-        getContentPane().add(jTextChange, new org.netbeans.lib.awtextra.AbsoluteConstraints(346, 222, 71, -1));
-
->>>>>>> origin/main
         jLabel7.setText("Change");
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(346, 198, -1, -1));
 
@@ -312,45 +249,31 @@ public class vendingInterface extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonMaintenance, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 370, -1, -1));
 
-<<<<<<< HEAD
         jPepsiAvailable.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> origin/main
         jPepsiAvailable.setSelected(true);
         jPepsiAvailable.setText("Available");
         jPepsiAvailable.setEnabled(false);
         jPepsiAvailable.setFocusPainted(false);
         getContentPane().add(jPepsiAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, -1, -1));
 
-<<<<<<< HEAD
         jUpAvailable.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> origin/main
         jUpAvailable.setSelected(true);
         jUpAvailable.setText("Available");
         jUpAvailable.setEnabled(false);
         jUpAvailable.setFocusPainted(false);
         getContentPane().add(jUpAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, -1, -1));
 
-<<<<<<< HEAD
         jOrangeAvailable.setForeground(new java.awt.Color(255, 255, 255));
-=======
->>>>>>> origin/main
         jOrangeAvailable.setSelected(true);
         jOrangeAvailable.setText("Available");
         jOrangeAvailable.setEnabled(false);
         jOrangeAvailable.setFocusPainted(false);
         getContentPane().add(jOrangeAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 10, -1, -1));
 
-<<<<<<< HEAD
         jLemonAvailable.setForeground(new java.awt.Color(255, 255, 255));
         jLemonAvailable.setSelected(true);
         jLemonAvailable.setText("Available");
         jLemonAvailable.setContentAreaFilled(false);
-=======
-        jLemonAvailable.setSelected(true);
-        jLemonAvailable.setText("Available");
->>>>>>> origin/main
         jLemonAvailable.setEnabled(false);
         jLemonAvailable.setFocusPainted(false);
         getContentPane().add(jLemonAvailable, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 10, -1, -1));

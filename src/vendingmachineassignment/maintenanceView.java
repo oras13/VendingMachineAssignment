@@ -69,15 +69,10 @@ public class maintenanceView extends javax.swing.JFrame {
         jText20CentDisplay = new javax.swing.JTextField();
         jText10CentDisplay = new javax.swing.JTextField();
         jButtonRestock = new javax.swing.JButton();
-<<<<<<< HEAD
         jLabel11 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-=======
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
->>>>>>> origin/main
 
         jButtonBack.setBackground(new java.awt.Color(255, 204, 153));
         jButtonBack.setText("Back");
@@ -86,7 +81,6 @@ public class maintenanceView extends javax.swing.JFrame {
                 jButtonBackActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         getContentPane().add(jButtonBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -104,34 +98,20 @@ public class maintenanceView extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Club Lemon Stock:");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 201, -1, -1));
-=======
-
-        jLabel1.setText("Pepsi Stock: ");
-
-        jLabel2.setText("7Up Stock:");
-
-        jLabel3.setText("Club Orange Stock:");
-
-        jLabel4.setText("Club Lemon Stock:");
->>>>>>> origin/main
 
         jTextPepsiStock.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextPepsiStockActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         getContentPane().add(jTextPepsiStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(138, 90, 71, -1));
         getContentPane().add(jTextUpStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(138, 126, 71, -1));
-=======
->>>>>>> origin/main
 
         jTextOrangeStock.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextOrangeStockActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         getContentPane().add(jTextOrangeStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(138, 162, 71, -1));
         getContentPane().add(jTextLemonStock, new org.netbeans.lib.awtextra.AbsoluteConstraints(138, 198, 71, -1));
 
@@ -139,10 +119,6 @@ public class maintenanceView extends javax.swing.JFrame {
         jLabel5.setText("Total Money:");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 30, -1, -1));
         getContentPane().add(jTextTotalMoney, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 30, 71, -1));
-=======
-
-        jLabel5.setText("Total Money:");
->>>>>>> origin/main
 
         jButtonCalc.setBackground(new java.awt.Color(153, 255, 153));
         jButtonCalc.setText("Calculate");
@@ -151,7 +127,6 @@ public class maintenanceView extends javax.swing.JFrame {
                 jButtonCalcActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         getContentPane().add(jButtonCalc, new org.netbeans.lib.awtextra.AbsoluteConstraints(133, 276, -1, -1));
 
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
@@ -178,18 +153,6 @@ public class maintenanceView extends javax.swing.JFrame {
         getContentPane().add(jText50CentDisplay, new org.netbeans.lib.awtextra.AbsoluteConstraints(369, 162, 71, -1));
         getContentPane().add(jText20CentDisplay, new org.netbeans.lib.awtextra.AbsoluteConstraints(369, 198, 71, -1));
         getContentPane().add(jText10CentDisplay, new org.netbeans.lib.awtextra.AbsoluteConstraints(369, 234, 71, -1));
-=======
-
-        jLabel6.setText("€2.00 coins:");
-
-        jLabel7.setText("€1.00 coins:");
-
-        jLabel8.setText("€0.50 coins:");
-
-        jLabel9.setText("€0.20 coins:");
-
-        jLabel10.setText("€0.10 coins:");
->>>>>>> origin/main
 
         jButtonRestock.setBackground(new java.awt.Color(153, 153, 255));
         jButtonRestock.setText("Restock");
@@ -198,116 +161,10 @@ public class maintenanceView extends javax.swing.JFrame {
                 jButtonRestockActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         getContentPane().add(jButtonRestock, new org.netbeans.lib.awtextra.AbsoluteConstraints(235, 276, -1, -1));
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/vendingmachineassignment/maintanancelayout.png"))); // NOI18N
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-=======
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(133, 133, 133)
-                .addComponent(jButtonCalc)
-                .addGap(18, 18, 18)
-                .addComponent(jButtonRestock)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jTextPepsiStock, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel4)
-                                .addGap(21, 21, 21)
-                                .addComponent(jTextLemonStock, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jTextUpStock, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addGap(18, 18, 18)
-                                .addComponent(jTextOrangeStock, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addComponent(jButtonBack, javax.swing.GroupLayout.Alignment.LEADING))
-                .addGap(0, 78, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextTotalMoney, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel10)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jText10CentDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel8)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jText50CentDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jText2EurDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jText1EurDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel9)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jText20CentDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 23, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jButtonBack)
-                .addGap(24, 24, 24)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(jTextTotalMoney, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jTextPepsiStock, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel6)
-                    .addComponent(jText2EurDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jTextUpStock, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel7)
-                    .addComponent(jText1EurDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(jTextOrangeStock, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel8)
-                    .addComponent(jText50CentDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(jTextLemonStock, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9)
-                    .addComponent(jText20CentDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel10)
-                    .addComponent(jText10CentDisplay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButtonCalc)
-                    .addComponent(jButtonRestock))
-                .addContainerGap(21, Short.MAX_VALUE))
-        );
->>>>>>> origin/main
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -375,10 +232,7 @@ public class maintenanceView extends javax.swing.JFrame {
     private javax.swing.JButton jButtonRestock;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-<<<<<<< HEAD
     private javax.swing.JLabel jLabel11;
-=======
->>>>>>> origin/main
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
