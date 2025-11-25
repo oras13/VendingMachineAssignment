@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author oras
  */
-public class vendingInterface extends javax.swing.JFrame {
+public class VendingInterface extends javax.swing.JFrame {
     
   //money declaration   
     public static int twoEuro = 3;
@@ -44,13 +44,13 @@ public class vendingInterface extends javax.swing.JFrame {
     public static int orangeStock = 7;
     public static int lemonStock = 3;
         
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(vendingInterface.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(VendingInterface.class.getName());
     private Component frame;
 
     /**
      * Creates new form vendingInterface
      */
-    public vendingInterface() {
+    public VendingInterface() {
         initComponents();
     }
 
@@ -441,7 +441,7 @@ public class vendingInterface extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonConfirmActionPerformed
 
     private void jButtonMaintenanceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonMaintenanceActionPerformed
-        maintenanceView j = new maintenanceView();
+        MaintenanceInterface j = new MaintenanceInterface();
         j.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButtonMaintenanceActionPerformed
@@ -484,7 +484,7 @@ public class vendingInterface extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new vendingInterface().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new VendingInterface().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

@@ -4,24 +4,24 @@
  */
 package vendingmachineassignment;
 
-import static vendingmachineassignment.vendingInterface.pepsiStock;
-import static vendingmachineassignment.vendingInterface.upStock;
-import static vendingmachineassignment.vendingInterface.orangeStock;
-import static vendingmachineassignment.vendingInterface.lemonStock;
+import static vendingmachineassignment.VendingInterface.pepsiStock;
+import static vendingmachineassignment.VendingInterface.upStock;
+import static vendingmachineassignment.VendingInterface.orangeStock;
+import static vendingmachineassignment.VendingInterface.lemonStock;
 import javax.swing.JFrame;
 
 /**
  *
  * @author oras
  */
-public class restockPage extends JFrame {
+public class RestockInterface extends JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(restockPage.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(RestockInterface.class.getName());
 
     /**
      * Creates new form restockPage
      */
-    public restockPage() {
+    public RestockInterface() {
         initComponents();
     }
 
@@ -93,7 +93,7 @@ public class restockPage extends JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBackActionPerformed
-        maintenanceView j = new maintenanceView();
+        MaintenanceInterface j = new MaintenanceInterface();
         j.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButtonBackActionPerformed
@@ -112,7 +112,7 @@ public class restockPage extends JFrame {
         jTextLemonRestock.setText("");
         lemonStock += lemon;
         
-        maintenanceView j = new maintenanceView();
+        MaintenanceInterface j = new MaintenanceInterface();
         j.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButtonConfirmActionPerformed
@@ -139,7 +139,7 @@ public class restockPage extends JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new restockPage().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new RestockInterface().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

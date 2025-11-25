@@ -4,35 +4,35 @@
  */
 package vendingmachineassignment;
 
-import static vendingmachineassignment.vendingInterface.fiftyCent;
-import static vendingmachineassignment.vendingInterface.pepsiStock;
-import static vendingmachineassignment.vendingInterface.upStock;
-import static vendingmachineassignment.vendingInterface.orangeStock;
-import static vendingmachineassignment.vendingInterface.lemonStock;
-import static vendingmachineassignment.vendingInterface.oneEuro;
-import static vendingmachineassignment.vendingInterface.tenCent;
-import static vendingmachineassignment.vendingInterface.totalMoney;
-import static vendingmachineassignment.vendingInterface.twentyCent;
-import static vendingmachineassignment.vendingInterface.twoEuro;
+import static vendingmachineassignment.VendingInterface.fiftyCent;
+import static vendingmachineassignment.VendingInterface.pepsiStock;
+import static vendingmachineassignment.VendingInterface.upStock;
+import static vendingmachineassignment.VendingInterface.orangeStock;
+import static vendingmachineassignment.VendingInterface.lemonStock;
+import static vendingmachineassignment.VendingInterface.oneEuro;
+import static vendingmachineassignment.VendingInterface.tenCent;
+import static vendingmachineassignment.VendingInterface.totalMoney;
+import static vendingmachineassignment.VendingInterface.twentyCent;
+import static vendingmachineassignment.VendingInterface.twoEuro;
 
 /**
  *
  * @author oras
  */
-public class maintenanceView extends javax.swing.JFrame {
+public class MaintenanceInterface extends javax.swing.JFrame {
     
     public static double roundMoney(double money){
         money = Math.round(money * 100)/100.0;
         return money;
     }
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(maintenanceView.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(MaintenanceInterface.class.getName());
     
 
     /**
      * Creates new form maintenanceView
      */
-    public maintenanceView() {
+    public MaintenanceInterface() {
        
         initComponents();
     }
@@ -170,7 +170,7 @@ public class maintenanceView extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBackActionPerformed
-        vendingInterface j = new vendingInterface();
+        VendingInterface j = new VendingInterface();
         j.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButtonBackActionPerformed
@@ -192,7 +192,7 @@ public class maintenanceView extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonCalcActionPerformed
 
     private void jButtonRestockActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonRestockActionPerformed
-        restockPage j = new restockPage();
+        RestockInterface j = new RestockInterface();
         j.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButtonRestockActionPerformed
@@ -223,7 +223,7 @@ public class maintenanceView extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new maintenanceView().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new MaintenanceInterface().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
