@@ -9,6 +9,7 @@ import static vendingmachineassignment.VendingInterface.upStock;
 import static vendingmachineassignment.VendingInterface.orangeStock;
 import static vendingmachineassignment.VendingInterface.lemonStock;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -99,18 +100,28 @@ public class RestockInterface extends JFrame {
     }//GEN-LAST:event_jButtonBackActionPerformed
 
     private void jButtonConfirmActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonConfirmActionPerformed
-        int pepsi = Integer.parseInt(jTextPepsiRestock.getText());
-        jTextPepsiRestock.setText("");
-        pepsiStock += pepsi;
-        int up = Integer.parseInt(jTextUpRestock.getText());
-        jTextUpRestock.setText("");
-        upStock += up;
-        int orange = Integer.parseInt(jTextOrangeRestock.getText());
-        jTextOrangeRestock.setText("");
-        orangeStock += orange;
-        int lemon = Integer.parseInt(jTextLemonRestock.getText());
-        jTextLemonRestock.setText("");
-        lemonStock += lemon;
+        try {
+            int pepsi = Integer.parseInt(jTextPepsiRestock.getText());
+            jTextPepsiRestock.setText("");
+            pepsiStock += pepsi;
+            int up = Integer.parseInt(jTextUpRestock.getText());
+            jTextUpRestock.setText("");
+            upStock += up;
+            int orange = Integer.parseInt(jTextOrangeRestock.getText());
+            jTextOrangeRestock.setText("");
+            orangeStock += orange;
+            int lemon = Integer.parseInt(jTextLemonRestock.getText());
+            jTextLemonRestock.setText("");
+            lemonStock += lemon;
+            
+            JOptionPane.showMessageDialog(this, "Success");
+        }catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(this,
+                    "Invalid Input, numbers only.", 
+                    "Input error.",
+                    JOptionPane.ERROR_MESSAGE);
+            return;
+        }
         
         MaintenanceInterface j = new MaintenanceInterface();
         j.setVisible(true);
