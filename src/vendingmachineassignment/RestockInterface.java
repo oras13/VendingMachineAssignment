@@ -117,7 +117,7 @@ public class RestockInterface extends JFrame {
             JOptionPane.showMessageDialog(this, "Success");
         }catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this,
-                    "Invalid Input, numbers only.", 
+                    "Invalid Input, numbers only/all fields must be filled.", 
                     "Input error.",
                     JOptionPane.ERROR_MESSAGE);
             return;
